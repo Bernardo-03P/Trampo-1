@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2E2E2E; /* Fundo cinza escuro */
+    color: #FFFFFF; /* Texto branco */
+}
+
+header {
+    background-color: #388E3C; /* Verde forte */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-left: 20px;
+    color: #FFFFFF; /* Texto branco */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Texto branco */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2E7D32; /* Verde escuro ao passar o mouse */
+}
+
+.hero {
+    background-image: url('fotos.jpg'); /* Mantenha a imagem ou altere conforme necessário */
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; /* Texto branco */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+    color: #388E3C; /* Verde forte */
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    color: #ffffff; /* Verde forte */
+}
+
+.parte2 {
+    display: flex;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.image-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaçamento inferior para afastar do card */
+}
+
+.image-logo img {
+    max-width: 90%; /* Reduzir a largura máxima para evitar que fique muito grande */
+    height: auto;
+    border: 2px solid #388E3C; /* Borda verde forte */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px; /* Padding interno para separar a imagem da borda */
+    background-color: #FFFFFF; /* Fundo branco para a borda */
+}
+
+.form-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #424242; /* Fundo cinza escuro */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: #B0BEC5; /* Texto claro */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #388E3C; /* Borda verde forte */
+    border-radius: 5px;
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #212121; /* Cor do texto */
+}
+
+input:focus {
+    border-color: #2E7D32; /* Verde escuro ao focar */
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5); /* Sombra ao focar */
+    outline: none; /* Remover contorno padrão */
+}
+
+button {
+    background-color: #388E3C; /* Verde forte */
+    color: #FFFFFF; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2E7D32; /* Verde escuro ao passar o mouse */
+}
+
+.disclaimer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #B0BEC5; /* Texto claro */
+}
+
+.parte3 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #424242; /* Fundo cinza escuro */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blue {
+    color: #388E3C; /* Verde forte */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.profile img {
+    height: 150px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.social-header {
+    background-color: #388E3C; /* Verde forte */
+    padding: 20px;
+    text-align: center; /* Centralizar texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 20px auto; /* Margem vertical e centralização */
+    max-width: 600px; /* Largura máxima */
+}
+
+.social-header h1 {
+    color: #FFFFFF; /* Texto branco */
+    font-size: 24px; /* Tamanho do título */
+    margin: 0 0 10px; /* Margens ajustadas */
+}
+
+.social-header p {
+    color: #FFFFFF; /* Texto branco */
+    margin: 0 0 15px; /* Margens ajustadas */
+}
+
+.social-links {
+    display: flex; /* Flexbox para alinhamento horizontal */
+    justify-content: center; /* Centralizar os links */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.social-links a {
+    margin: 5px 10px; /* Margem entre os links */
+    color: #FFFFFF; /* Texto branco */
+    text-decoration: none; /* Remover sublinhado */
+    padding: 10px 15px; /* Padding para os botões */
+    background-color: #388E3C; /* Verde forte */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.social-links a:hover {
+    background-color: #2E7D32; /* Verde escuro ao passar o mouse */
+}
+
+.media-cards {
+    display: flex; /* Usar flexbox para alinhamento */
+    justify-content: space-between; /* Espaçamento uniforme entre os cards */
+    flex-wrap: wrap; /* Permitir quebra de linha se houver muitos cards */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.card {
+    flex: 1; /* Permitir que os cards cresçam igualmente */
+    min-width: 280px; /* Largura mínima para cada card */
+    max-width: 300px; /* Largura máxima para cada card */
+    background-color: #4CAF50; /* Cor de fundo verde dos cards */
+    border: 1px solid #5f5858; /* Borda para os cards */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para os cards */
+    display: flex; /* Usar flexbox dentro do card */
+    flex-direction: column; /* Colocar os elementos em coluna */
+    justify-content: space-between; /* Espaçar os conteúdos */
+}
+
+.card h3 {
+    margin: 0 0 10px; /* Margem inferior para o título */
+    color: white; /* Texto em branco */
+}
+
+.card p {
+    flex-grow: 1; /* Permitir que o parágrafo cresça */
+    color: white; /* Texto em branco */
+}
+
+button {
+    padding: 10px; /* Padding para os botões */
+    background-color: #9ea39c; /* Cor de fundo cinza para os botões */
+    color: #315233; /* Cor do texto do botão */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #7A7A7A; /* Cor ao passar o mouse */
+}
+
+.podcast, .videos {
+    margin: 40px auto;
+    background: #424242; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os vídeos */
+    margin: 40px auto; /* Margem vertical */
+    max-width: 1200px; /* Largura máxima */
+    background: #424242; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column; /* Coluna para os dois primeiros vídeos */
+    width: 65%; /* Largura para ocupar a maior parte */
+}
+
+.video {
+    margin-bottom: 20px; /* Espaçamento entre os vídeos */
+}
+
+.video h3 {
+    margin-top: 0; /* Remover margem superior */
+}
+
+.video iframe {
+    width: 100%; /* Largura total do contêiner */
+    height: 200px; /* Altura fixa */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.video-side {
+    width: 30%; /* Largura do vídeo lateral */
+    display: flex;
+    flex-direction: column; /* Coluna para o vídeo lateral */
+}
+
+.video-side h3 {
+    margin-top: 0; /* Remover margem superior */
+}
+
+.video-side iframe {
+    width: 100%; /* Largura total do contêiner */
+    height: 420px; /* Altura maior para o vídeo lateral */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .podcast, .videos {
+        padding: 15px;
+        max-width: 95%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #388E3C; /* Verde forte */
+    color: #FFFFFF; /* Texto branco */
+    padding: 15px 0;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+.parte4, .parte5 {
+    max-width: 1200px;
+    margin: 20px auto; /* Margem superior e inferior */
+    padding: 20px;
+    background-color: #424242; /* Fundo cinza escuro */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column; /* Coluna para os elementos */
+    align-items: center; /* Centralizar os elementos */
+    background-color: #424242; /* Fundo cinza escuro */
+    padding: 20px; /* Padding para conforto */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.custom-input {
+    width: 80%; /* Largura reduzida */
+    max-width: 400px; /* Largura máxima */
+    padding: 10px; /* Padding para conforto */
+    margin: 8px 0; /* Margem vertical */
+    border: 2px solid #388E3C; /* Borda colorida */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    color: #212121; /* Cor do texto */
+    background-color: #FFFFFF; /* Fundo branco */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Animação suave */
+}
+
+.custom-input:focus {
+    border-color: #2E7D32; /* Verde escuro ao focar */
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5); /* Sombra ao focar */
+    outline: none; /* Remover contorno padrão */
+}
+
+.custom-button {
+    padding: 12px 20px; /* Padding ajustado */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #FFFFFF; /* Texto branco */
+    background-color: #388E3C; /* Verde forte */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição suave */
+    margin-top: 10px; /* Margem superior para espaçamento */
+}
+
+.custom-button:hover {
+    background-color: #2E7D32; /* Verde escuro ao passar o mouse */
+}
